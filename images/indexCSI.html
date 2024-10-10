@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--start a end tag-->
+<html lang="en">
+    <!--hlava-->
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+        <meta charset="utf-8">
+        <title>Coherence Scanning interferometry</title>
+    </head>
+    <!--telo-->
+    <body>
+        <div class="imgbox">
+            <img class="center-fit" src='images/banner.png' alt="Banner with ilustrative image of surface analysis interferogram.">
+        </div>
+
+       <h1>Coherence Scanning Interferometry - WLI - White Light Interferometry</h1>
+       <div class="slogan"><h2><em>Truly in-depth 3D optical surface characterization and analysis.</em></h2></div>
+
+        <p class="intro">
+            <b>Coherence Scanning Interferometry</b> is a measurement method used in the fabrication and analysis
+             of optical, semiconductor and other surfaces as well as in applied physics research. We take for example the <b>white light interferometry</b>.
+             It uses a split beam of light. One beam is used as a reference beam, it's target being a flat reflective plane 
+             perpendicular to the measured Z-axis. The secondary beam is directed onto the surface of the sample. The light upon
+             impact on the surface of the sample reflects and joins with the reference beam in the beam splitter. These two beams
+             interfere with each other and combine, creating an interference pattern - fringes - on the detector. This
+             pattern from multiple measurements is then converted into image data and serves for <b>topography and surface analysis</b> of
+             the sample.
+        </p>
+
+        <div>
+            <div class="square">
+                <img src=
+                "https://d36nqgmw98q4v5.cloudfront.net/images/Article_Images/ImageForArticle_1216_44740240995798612303.jpg"
+                    alt="Components of the interferometer setup">
+            </div>
+            <div>
+                <p class="ulp">
+                    <b>Components of a White Light Interferometer system</b>
+                    <ul class="ul">
+                        <li>Light source</li>
+                        <li>Beam splitter, internal optics</li>
+                        <li>Michelson or Mirau interferometer objective</li>
+                        <li>Photodetector</li>
+                        <li>Sample stage</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="square">
+                <img src=
+                "https://www.keyence.com/Images/interferometers_feature10-01_2049901.png"
+                    alt="Keyence. Interference of different wavelengths.">
+            </div>
+            <p class="intro">
+                Key to this method is a light source. A coherent light source - a light source with long distance frequency, wavelength and phase
+                similarity - e.g. a laser - would have lower resolution however greater measurement distance. This is caused 
+                by the fact that the waves of a coherent light source have a stable phase over large distances, 
+                we can see this in our daily lives, a laser pointer shines brighter and farther as opposed to a simple 
+                flashlight. However in this field of optics or semiconductors the feature size that we want to analyze 
+                is very small hence no need for long distance (spatial) light coherence. Therefore this method doesn't make use of spatial 
+                coherence but only <b>temporal coherence</b>. The name of the selected light source is - 
+                as hinted by the name of the method - <b>white light source</b>. This broadband light source has a very short coherence length. 
+                As described inthe introduction, both the reference beam and measurement beam combine back together in the beam splitter. 
+                If the distance from the light source to the reference mirror is equal to the distance from the light 
+                source to the sample we can see that at this moment the waves of both beams are coherent and exhibit
+                constructive interference. It must be noted that the difference of both distances must be in a very narrow
+                interval which is equal to the coherence length or the length on which the beam is temporaly coherent. 
+                This number is only around a wavelength high - ca. 600-700 nm. If the distance to any point on the surface
+                of the sample differs either in negative or positive direction, the light in that area doesn't exhibit interference
+                on combination with the reference beam. This image of refractive patterns is then captured by a photodetector
+                and hence the small coherence length - which serves here as kind of a reference value or the resolution of the 
+                system - this method can achieve precise Z-axis surface characterization and profilometry with resolution up 
+                to single nanometers with computer calculations and better system or optics adjustments.
+            </p>
+        </div>
+
+        <p class="intro">
+            Other key component is a photodetector. 
+            For this any CMOS, CCD or other detectors can be used. Usually a CCD camera is used for it's price and spacial convenience.
+        </p>
+        <p class="intro">
+            Using a motorized stage and computing we can achieve larger area scanning by stitching individual scanned bits of the surface
+             together. However for most of use cases a manually operated stage is substantionally enough.
+        </p>
+
+        <p class="intro">
+        The major manufacturers of optical profilometers and interferometers are <b>Keyence</b> and <b>Zygo</b>.  From Keyence it is the
+        <b>VK-X3000</b> and for Zygo it is the new <b>Zegage</b>. Below are also displayed profilometry images of different surfaces and
+        the user interface of one of the older Zygo interferometers. 
+        </p>
+
+        <div class="grid-container">
+            <div class="grid-item"><img src=
+                "https://smif.pratt.duke.edu/sites/smif.pratt.duke.edu/files/images/2023/KEY1%20with%20table.jpg"
+                    alt="Keyence interferometer at Duke UNI."></div>
+            <div class="grid-item"><img src=
+                "https://www.zygo.com/-/media/project/ameteksxa/zygo/ametekzygo/products/3d-optical-profilers/zegage-pro-hr-1080.jpg?dmc=1&la=en&revision=17a33f7c-a514-4946-b822-608bee8fc251&h=267&w=400&hash=C0DA78DAECE6AA183B58FBFD5B6D8A30"
+                    alt="Illustration image of ZYGO interferometer setup."></div>
+            <div class="grid-item"><img src=
+                "https://upload.wikimedia.org/wikipedia/commons/f/f9/Nepenthes_khasiana_lunate_cells.jpg"
+                    alt="An example of profilometry image from an interferometer."></div>
+            <div class="grid-item"><img src=
+                "https://hackaday.com/wp-content/uploads/2024/03/white_light_interferometry_huygens_optics_zygo_screenshot.jpg"
+                    alt="A screenshot of the UI and use of an older ZYGO interferometer."></div>
+          </div>
+        
+        <footer>
+            <table class="center-fit">
+                <tr>
+                  <th>Author</th>
+                  <th>E-mail</th>
+                  <th>Website</th>
+                </tr>
+                <tr>
+                  <td>Marek Bílý</td>
+                  <td><a href="mailto:marek.bily@eratech.cz">marek.bily@eratech.cz</a></td>
+                  <td><a href="https://eratech.cz">ERATECH s.r.o.</a></td>
+                </tr>
+                <tr>
+                  <td>-</td>
+                  <td><a href="mailto:marek.bily@student.gyarab.cz">marek.bily@student.gyarab.cz</a></td>
+                  <td>-</td>
+                </tr>
+              </table>
+        </footer>
+
+    </body>
+
+</html>
